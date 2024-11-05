@@ -1,1 +1,31 @@
+body nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
 
+body nav a {
+    float: left;
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+body nav a:hover {
+    background-color: #575757;
+}
+
+body div{
+
+    background-color:bisque;
+}
+
+body div h1{
+
+    color:black;
+    text-align: center;
+}
