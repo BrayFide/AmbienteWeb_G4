@@ -1,14 +1,14 @@
-// Simulación de datos por medidor 
+// Simulación de datos en "base de datos" para cada medidor
 const facturasDB = {
-    "90": [
+    "100": [
         { comprobante: "001", tipoDocumento: "Factura", numeroDocumento: "123456", fechaPago: "2024-11-01", monto: "₡10,000" },
         { comprobante: "002", tipoDocumento: "Recibo", numeroDocumento: "123457", fechaPago: "2024-11-02", monto: "₡15,000" }
     ],
-    "100": [
+    "110": [
         { comprobante: "003", tipoDocumento: "Factura", numeroDocumento: "123458", fechaPago: "2024-11-03", monto: "₡8,000" },
         { comprobante: "004", tipoDocumento: "Recibo", numeroDocumento: "123459", fechaPago: "2024-11-04", monto: "₡5,000" }
     ],
-    "110": [
+    "120": [
         { comprobante: "005", tipoDocumento: "Factura", numeroDocumento: "123460", fechaPago: "2024-11-05", monto: "₡12,000" }
     ]
 };
@@ -16,7 +16,7 @@ const facturasDB = {
 // Función para consultar las facturas según el número de medidor
 function consultarFacturas() {
     const numeroMedidor = document.getElementById("medidor").value;
-    const facturas = facturasDB[numeroMedidor];
+    const facturas = facturasDB[numeroMedidor]; 
     const cuerpoTabla = document.getElementById("cuerpoTabla");
     cuerpoTabla.innerHTML = ""; 
 
