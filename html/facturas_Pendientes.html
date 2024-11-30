@@ -9,12 +9,38 @@
         body {
             background-color: #f8f9fa;
         }
+        nav {
+    background-color: #0056b3;
+    padding: 1em;
+    text-align: center;
+    width: 100%; /* Asegura que el menú ocupe todo el ancho */
+            }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+            text-decoration: underline;
+        }
         .factura-card {
             margin: 15px 0;
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="NumMedidor.htm">Pagar Factura</a>
+        <a href="Historial.html">Historial de Pagos</a>
+        <a href="facturas_Pendientes.html">Pendiente</a>
+        <a href="iniciarSesion.html">Iniciar Sesion</a>
+    </nav>
 
 <div class="container my-5">
     <h1 class="text-center">Facturas Pendientes</h1>
