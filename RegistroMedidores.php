@@ -20,7 +20,7 @@
 
         <form  method="post"  action="procesar_formulario.php" id= "medidorForm" >
             <div class="form-floating mb-3">
-                <input type="text" class="form-control" placeholder="id Medidor" name="idMedidor"
+                <input type="text" class="form-control"  placeholder="id Medidor" name="idMedidor"
                     id="idMedidor">
                 <label for="floatingInput">ID de Medidor:</label>
                 

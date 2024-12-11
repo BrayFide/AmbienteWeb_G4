@@ -10,32 +10,6 @@ $(function () {
     
     $('#facturasSeccion').hide();
 
-    /*$(document).ready(function(){
-        let isValid = true;
-
-        if ($('#idMedidor').val().trim() === '') {
-            $('#idMedidor').addClass('error');
-            $('#error-idMedidor').show();
-            isValid = false;
-        } else {
-            $('#idMedidor').removeClass('error');
-            $('#error-idMedidor').hide();
-        }
-
-        function buscarMedidor(){
-            $.post('procesarFacturas', {action:'buscar'}, function(data){
-                var medidores = JSON.parse(data);
-                var html = '';
-                if(medidores.medidores.length > 0) {
-                    medidores.medidores.forEach(function(medidor){
-                        
-                    })
-
-                }
-            }
-
-
-    })*/
 
 /*Script de envio de dato del medidor al cual se le quiere generar una factura */
     $('#buscadorMedidor').on('submit', function (e) {
