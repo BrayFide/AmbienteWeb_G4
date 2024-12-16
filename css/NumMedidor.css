@@ -1,5 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
+   body{
+   font-family: Arial, sans-serif;
 <<<<<<< Updated upstream
     background-color: #f0f4f8; /* Fondo de la página */
    
@@ -12,6 +12,7 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 nav {
     background-color: #0056b3;
     padding: 1em;
